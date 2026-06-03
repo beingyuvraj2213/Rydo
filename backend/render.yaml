@@ -1,0 +1,15 @@
+services:
+  - name: rydo-backend
+    type: web
+    env: node
+    region: oregon # Change region if needed
+    plan: free # or use 'starter' for better performance
+    buildCommand: npm install
+    startCommand: node server.js
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 3001
+      - key: JWT_SECRET_KEY
+        sync: false
