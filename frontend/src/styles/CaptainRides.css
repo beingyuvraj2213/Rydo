@@ -1,0 +1,84 @@
+/* Ride Container */
+.ride-container {
+    max-width: 100%;
+    padding: 20px;
+    margin-bottom: 80px;
+}
+
+/* Loading & No Rides Text */
+.loading-text,
+.no-rides-text {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ccc;
+}
+
+/* Ride Grid - Stacked Cards */
+.ride-grid {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center cards */
+    gap: 15px;
+}
+
+/* Ride Card */
+.ride-card {
+    background: linear-gradient(135deg, #002147, #003366); /* Darker Blue Gradient */
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out;
+    width: 90%; /* Take up most of the screen width */
+    max-width: 400px; /* Prevents it from getting too wide */
+    overflow: hidden;
+    position: relative;
+}
+
+.ride-card:hover {
+    transform: translateY(-5px);
+}
+
+/* User Name */
+.ride-id {
+    font-size: 22px;
+    font-weight: bold;
+    background: #001233; /* Darkest Navy Blue */
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+/* Ride Details - Each Item */
+.ride-card p {
+    font-size: 16px;
+    margin: 5px 0;
+    background: rgba(255, 255, 255, 0.1); /* Light transparent background */
+    padding: 12px;
+    border-radius: 8px;
+    text-align: center;
+    color: #dbe2ef;
+}
+
+/* Accept Button */
+.accept-btn {
+    margin-top: 15px;
+    background: linear-gradient(135deg, #ff3c00, #cc2900); /* Deep Red for contrast */
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%; /* Full width button for better usability */
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.accept-btn:hover {
+    background: linear-gradient(135deg, #b22400, #991a00);
+    transform: scale(1.05);
+}

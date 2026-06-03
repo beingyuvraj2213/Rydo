@@ -1,0 +1,86 @@
+.captain-home-main {
+  /* padding: 20px; */
+}
+
+.captain-home-heading {
+  font-weight: 800;
+  font-size: xx-large;
+}
+
+.captain-home-status {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background: linear-gradient(135deg, #0f172a, #1e3a8a);
+
+  gap: 20px;
+  /* border-radius: 25px; */
+  color: aliceblue;
+  padding: 10px;
+}
+
+.captain-home-status .status-description {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.status-description .status-description-first {
+  font-weight: 800;
+}
+
+.captain-today-stats {
+  position: fixed;
+  bottom: 0;
+  margin-bottom: 84px;
+  background: linear-gradient(135deg, #0f172a, #1e3a8a);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  gap: 15px;
+}
+
+.captain-today-stats .captain-info {
+  display: flex;
+  gap: 110px;
+  font-weight: 800;
+  color: whitesmoke;
+}
+
+.captain-today-stats .captain-info .captain-earning {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.captain-stats {
+  background: linear-gradient(90deg, #a0e9ff, #64b5f6, #378fe9);
+  width: 85%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  padding: 15px;
+  border-radius: 22px;
+}
+
+.captain-stats .category {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  text-align: center;
+}
+
+.captain-stats .category .first {
+  font-weight: 800;
+}
+.captain-stats .category .second {
+  font-weight: 500;
+}

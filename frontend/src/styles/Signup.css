@@ -1,0 +1,60 @@
+.signup-main{
+  padding: 18px;
+}
+
+.signup-top{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.signup-top h2{
+  font-size: 2rem;
+}
+
+.signup-hero .signup-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.signup-hero .signup-form input {
+width: 100%;
+
+padding: 12px 15px;
+font-size: 1rem;
+border: none;
+border-radius: 8px;
+
+background: linear-gradient(145deg, #ffffff, #e0e0e0);
+
+/* Soft Shadow for Depth */
+box-shadow: inset 4px 4px 8px rgba(0, 0, 0, 0.1),
+  inset -4px -4px 8px rgba(255, 255, 255, 0.7);
+
+/* Smooth transition */
+transition: all 0.3s ease-in-out;
+outline: none;
+}
+
+.signin-btn-captain {
+position: absolute;
+bottom: 20px; /* Distance from bottom */
+left: 50%;
+transform: translateX(-50%); /* Center horizontally */
+width: 80%;
+padding: 12px;
+background-color: #000;
+color: white;
+font-size: 1rem;
+text-align: center;
+border: none;
+border-radius: 8px;
+cursor: pointer;
+}
+
+.new-here-btn{
+  color: #17BEBB;
+}
